@@ -60,13 +60,13 @@ async def start_handlers(_: Bot, message: Message) -> None:
     await message.reply(
         text=(
             f"👋 **__Hello {message.from_user.mention}!__**\n\n"
-            "__Welcome to **Telegraph Uploader Bot__**\n\n"
+            "__Welcome to **Telegraph Uploader Bot__** 🌐\n\n"
             "__With me, you can :__\n"
-            "📸 **__Upload Photos**\nSend me any Photo, and I'll upload it to **ImgBB** or **Envs.sh** with a Direct Shareable Link.__\n"
-            "📝 **__Create Instant View Posts**\nSend me Text in a Simple Format, and I’ll create a Stylish Post on **Graph.org** (Telegraph alternative).__\n\n"
+            "📸 **__Host Images**\nSend Me Any Photo, And I'll Immediately Upload It To **Imgbb** Or **Envs.sh**, Providing You With A Direct, Shareable Link__\n"
+            "📝 **__Create Instant View Posts**\nSend me your Text, and I'll instantly convert it into a Beautifully formatted, Ad-free post on **Graph.org** (your Telegraph alternative)__\n\n"
             "📌 **__Usage__**:\n"
-            "• __Send a **Photo** Directly \nGet ImgBB/Envs.sh Link\n"
-            "• __Send a **Text** in the following format \nGet Graph.org post\n\n"
+            "• __Send a **Photo** Get ImgBB/Envs.sh Link\n"
+            "• __Send a **Text** in the following format Get Graph.org post with Link\n\n"
             "📝 **__Custom Title__**:\n"
             "```txt\n"
             "Title: {title}\n{content}\n"
